@@ -14,3 +14,6 @@ numbers.add(5)
 
 # How to remove element
 cars.remove("Audi")
+
+all = cars | numbers # | = Pipe operator
+print(all) # {1, 2, 'Bugati', 'Pagani', 3, 4, 5, 'BMW'}
